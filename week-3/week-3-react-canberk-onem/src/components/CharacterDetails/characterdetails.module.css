@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.detailContainer{
+    text-align: center;
+    width: 1080px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+    -webkit-box-shadow: 0px 0px 25px -8px rgba(0,255,68,1);
+    -moz-box-shadow: 0px 0px 25px -8px rgba(0,255,68,1);
+    box-shadow: 0px 0px 25px -8px rgba(0,255,68,1);
+    height: 800px;
+}
+
+.homeBtn {
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+    box-shadow: 0px 0px 25px -8px rgba(0,255,68,1);
+    cursor: pointer;
+}
+
+.detailContainer ul{
+    list-style-type: none;
+    font-size:16px;
+}
+
+.detailContainer ul li{
+    margin-top: 5px;
+}
+
+.episodesList{
+    display: flex;
+    justify-content: center;
+}
+.episodesList li{
+    margin: 0 5px;
+    font-weight: 700;
+    background-color:yellowgreen;
+    padding: 5px;
+    color: white;
+    border: 2px solid green;
+    box-shadow: 0px 0px 25px -8px rgba(0,255,68,1);
+    border-radius: 10px;
+}

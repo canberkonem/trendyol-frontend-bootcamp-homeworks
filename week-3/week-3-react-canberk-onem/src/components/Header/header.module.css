@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: green;
+}
+
+.bannerImg{
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    border: 3px greenyellow solid;
+}
+
+.bannerImg img{
+    width: 100%;
+}

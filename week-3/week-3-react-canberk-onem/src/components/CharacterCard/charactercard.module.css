@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+
+.card{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.card img{
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+}
+
+.cardInfo{
+    padding: 0 20px;
+    text-align: left;
+    font-size: 14px;
+}
